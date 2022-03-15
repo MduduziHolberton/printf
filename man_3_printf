@@ -32,7 +32,6 @@ If the next sign is equal to the percent sign then% will be printed in that case
 
 d and i:
 Convert the parameter number to a base number 10, return 0 if the argument is empty.
-
 .SH OPTIONS
 others
 .SH SEE ALSO

@@ -20,6 +20,10 @@ typedef struct typeprint
 int opFunction(int cont, va_list list, typedate tipos[],
 const char *format);
 int printUnk(int i, int spaces, const char *format, int band);
+int print_hex(va_list l, flags_t *f)
+int print_hex_big(va_list l, flags_t *f)
+int print_binary(va_list l, flags_t *f)
+int print_octal(va_list l, flags_t *f)
 int _strcmp(char *s1, char *s2);
 int _putchar(char c);
 int _printf(const char *format, ...);
